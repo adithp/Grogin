@@ -1,0 +1,204 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.inter-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Inter";
+
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+a {
+    color: #000;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.notfication {
+    background-color: #634c9f;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.notfication .wrapper {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.notfication .wrapper p {
+    margin-right: 44px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.notfication .wrapper p.small {
+    margin-right: 0;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 400;
+}
+
+.notfication .wrapper p span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 6px;
+}
+
+header {}
+
+header div.top-nav {
+    margin-bottom: 16px;
+    font-size: 12px;
+    color: #6b7280;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header div.top-nav .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+header div.top-nav div.left {
+    display: flex;
+    align-items: center;
+}
+
+
+
+header div.top-nav div.left a {
+    margin-right: 12px;
+    color: #6b7280;
+}
+
+header div.top-nav div.left a:nth-child(3) {
+    padding-right: 8px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header div.top-nav div.left p {}
+
+header div.top-nav div.left p span {
+    margin-left: 6px;
+    color: #ea580c;
+    font-weight: 600;
+}
+
+header div.top-nav div.right {
+    display: flex;
+    align-items: center;
+}
+
+
+
+header div.top-nav div.right select {
+    color: #6b7280;
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+header div.top-nav div.right a {
+    color: #6b7280;
+    font-size: 12px;
+}
+
+header div.center-nav {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header div.center-nav .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div.center-nav .wrapper img.logo {
+    max-width: 142px;
+    margin-right: 16px;
+}
+
+header div.center-nav .wrapper p {}
+
+header div.center-nav .wrapper .deliver p {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+header div.center-nav .wrapper .deliver span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+header div.center-nav .wrapper div.search-box {
+    width: 55%;
+    position: relative;
+
+}
+
+header div.center-nav .wrapper div.search-box input {
+    background-color: #f3f4f6;
+    width: 100%;
+    padding: 14px 12px;
+    height: 100%;
+    border-radius: 6px;
+}
+
+header div.center-nav .wrapper div.search-box img {
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    max-width: 26px;
+}
+
+header div.center-nav .wrapper .top-bar-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header div.center-nav .wrapper .top-bar-buttons img {
+    width: 20px;
+    height: 20px;
+}
