@@ -196,9 +196,101 @@ header div.center-nav .wrapper .top-bar-buttons {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+header div.center-nav .wrapper .top-bar-buttons .round-number {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #dc2626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin-top: -10px;
+
 }
 
 header div.center-nav .wrapper .top-bar-buttons img {
     width: 20px;
     height: 20px;
 }
+
+header div.categories {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 12px;
+}
+
+header div.categories .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div.categories .wrapper div.left {
+    display: flex;
+    align-items: center;
+}
+
+
+
+header div.categories .wrapper div.left .active::after {
+
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -13px;
+    height: 2px;
+    background-color: #634C9F;
+    z-index: 1;
+
+}
+
+header div.categories .wrapper div.left a {
+    margin-right: 16px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+}
+
+header div.categories .wrapper div.left a img {
+    margin-left: 4px;
+    text-align: center;
+}
+
+header div.categories .wrapper div.right {
+    display: flex;
+}
+
+
+header div.categories .wrapper div.right a {
+    margin-right: 16px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+header div.categories .wrapper div.right a img {
+    margin-left: 4px;
+}
+
+header div.categories .wrapper div.right div span {
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+header div.categories .wrapper div.right div span.sale {
+    margin-left: 4px;
+    margin-right: 3px;
+    padding: 3px 4px;
+    background-color: #dc2626;
+    border-radius: 6px;
+}
+
+header div.categories .wrapper div.right div img {}
