@@ -66,6 +66,7 @@ a {
     margin-right: 44px;
     font-size: 12px;
     font-weight: 600;
+    color: #fff;
 }
 
 .notfication .wrapper p.small {
@@ -912,7 +913,9 @@ footer div.center {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 32px;
     flex-wrap: wrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 
@@ -1025,4 +1028,43 @@ footer div.center div.item div.social div.icon a {
     margin-bottom: 0;
     display: inline-block;
     text-align: center;
+}
+
+footer div.bottom {
+    padding: 48px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div.bottom div.left {}
+
+footer div.bottom div.left p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #6B7280;
+    margin-bottom: 26px;
+}
+
+footer div.bottom div.left p span {
+    font-weight: 600;
+    color: #634C9F;
+}
+
+footer div.bottom div.left div.brands {
+    display: flex;
+    align-items: center;
+}
+
+footer div.bottom div.left div.brands img {
+    margin-right: 6px;
+}
+
+footer div.bottom div.right {}
+
+footer div.bottom div.right a {
+    margin-right: 6px;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 400;
+    color: #111827;
 }
