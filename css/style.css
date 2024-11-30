@@ -1068,3 +1068,174 @@ footer div.bottom div.right a {
     font-weight: 400;
     color: #111827;
 }
+
+
+@media all and (max-width:1280px) {
+    header div.center-nav .wrapper .top-bar-buttons {
+        display: none;
+    }
+
+    .notfication .wrapper p.small {
+        display: none;
+    }
+
+    footer div.center div.item div.social div.icons {
+        max-width: none;
+    }
+
+    footer div.bottom div.right {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width:980px) {
+    header div.categories .wrapper div.right {
+        display: none;
+    }
+
+    .home div.left div.price-limit div.input-boxes div.box {
+        width: 30%;
+    }
+
+    .home div.left div.price-limit div.range-text {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .home div.left div.price-limit div.range-text span {
+        margin-bottom: 8px;
+    }
+
+    .home div.left div.product-categories div.cate span {
+        font-size: 12px;
+    }
+
+    .home div.right div.banner h1 {
+        font-size: 20px;
+    }
+
+    .home div.right div.product-container .product {
+        width: 50%;
+    }
+
+}
+
+@media all and (max-width:768px) {
+    header div.top-nav div.left p {
+        display: none;
+    }
+
+    .home div.left h3 {
+        font-size: 12px;
+    }
+
+    footer .wrapper div.top {
+        flex-wrap: wrap;
+    }
+
+    footer div.center div.item {
+        max-width: 50%;
+    }
+}
+
+@media all and (max-width:640px) {
+    header div.center-nav .wrapper .deliver p {
+        display: none;
+    }
+
+    header div.center-nav .wrapper .deliver span {
+        display: none;
+    }
+
+    header div.center-nav .wrapper div.search-box {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    header div.center-nav .wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .location-icon {
+        display: none;
+    }
+
+    header div.categories .wrapper div.left a {
+        font-size: 10px;
+    }
+
+    .home div.left {
+        display: none;
+    }
+
+    footer div.center div.item {
+        max-width: 100%;
+    }
+
+    .home div.right {
+        width: 100%;
+    }
+
+    .home div.right div.sort-section {
+        display: none;
+    }
+
+    .home div.right div.banner h1 {
+        font-size: 18px;
+    }
+
+    footer div.bottom div.right a {
+        margin-bottom: 12px;
+    }
+}
+
+
+@media all and (max-width:480px) {
+    .notfication {
+        display: none;
+    }
+
+    header div.top-nav div.left {
+        display: none;
+    }
+
+    header div.categories {
+        display: none;
+    }
+
+    header div.center-nav .wrapper div.search-box input {
+        font-size: 12px;
+    }
+
+    .home div.right div.banner h1 {
+        font-size: 14px;
+    }
+
+    .home div.right div.product-container .product {
+        width: 100%;
+    }
+
+    footer div.bottom {
+        flex-wrap: wrap;
+    }
+
+    footer div.bottom div.left {
+        margin-bottom: 12px;
+    }
+}
+
+@media all and (max-width:360px) {
+    header div.center-nav .wrapper div.search-box input {
+        font-size: 10px;
+    }
+
+    .home div.right div.banner h1 {
+        max-width: 100%;
+    }
+
+    .home div.right div.banner p {
+        max-width: 100%;
+    }
+}
