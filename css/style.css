@@ -832,3 +832,197 @@ header div.categories .wrapper div.right div img {}
     color: #166534;
     margin-left: 4px;
 }
+
+footer {
+    background-color: #F3F4F6;
+}
+
+footer .wrapper {}
+
+footer .wrapper div.top {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 60px;
+}
+
+footer .wrapper div.top div.left {
+    margin-top: 32px;
+}
+
+footer .wrapper div.top div.left h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+footer .wrapper div.top div.left a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #6B7280;
+    display: block;
+    width: 70%;
+    line-height: 1.3;
+}
+
+footer .wrapper div.top div.right {
+    margin-top: 32px;
+}
+
+footer .wrapper div.top div.right div.email-container {
+    display: flex;
+}
+
+footer .wrapper div.top div.right div.email-container input.email {
+    background-color: #FFFFFF;
+    background-image: url('../images/mail.svg');
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 85%;
+    padding-left: 44px;
+    background-position: 16px center;
+    color: #9CA3AF;
+    border-radius: 8px 0 0 8px;
+
+}
+
+footer .wrapper div.top div.right div.email-container input.email-submit {
+    background-color: #634C9F;
+    width: 14%;
+    border-radius: 0 8px 8px 0;
+    color: #fff;
+}
+
+footer .wrapper div.top div.right p {
+    font-size: 11px;
+    font-weight: 400;
+    color: #6B7280;
+    margin-top: 16px;
+
+}
+
+footer .wrapper div.top div.right p a {
+    font-weight: 500;
+    color: #634C9F;
+}
+
+footer div.center {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+footer div.center div.item {
+    display: flex;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    flex-direction: column;
+    max-width: 25%;
+}
+
+footer div.center div.item h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 16px;
+}
+
+footer div.center div.item a {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #4B5563;
+}
+
+footer div.center div.item div.phone,
+footer div.center div.item div.mail {
+    display: flex;
+    align-items: center;
+
+}
+
+footer div.center div.item div.phone {
+    margin: 24px 0;
+
+}
+
+footer div.center div.item div img {
+    margin-right: 24px;
+    width: 30px;
+}
+
+footer div.center div.item div p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #111827;
+    margin-bottom: 6px;
+}
+
+footer div.center div.item div a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #111827;
+}
+
+footer div.center div.item .download {
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+footer div.center div.item .download img {
+    width: 50%;
+}
+
+footer div.center div.item .download span {
+
+    font-size: 10px;
+    font-weight: 500;
+    color: #6B7280;
+}
+
+footer div.center div.item div.social {
+    margin-top: 32px;
+}
+
+footer div.center div.item div.social span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #111827;
+}
+
+footer div.center div.item div.social div.icons {
+    display: flex;
+    max-width: 60%;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+footer div.center div.item div.social div.icon {
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    margin-right: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer div.center div.item div.social div.icon img {
+    width: 12px;
+    text-align: center;
+    margin-right: 0;
+}
+
+footer div.center div.item div.social div.icon a {
+    margin-bottom: 0;
+    display: inline-block;
+    text-align: center;
+}
